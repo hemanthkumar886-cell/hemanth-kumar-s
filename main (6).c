@@ -1,10 +1,15 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main() {
-    float p, r, t, si;
-    printf("Enter principal, rate, and time: ");
-    scanf("%f %f %f", &p, &r, &t);
-    si = (p * r * t) / 100;
-    printf("Simple Interest = %f", si);
+    int a,b;
+    printf("enter two number:");
+    scanf("%d%d",&a,&a);
+    scanf("%d%d",&a,&b);
+    if(a>0)
+    {
+      if(b>0)
+    {
+        printf("both numbers are positive\n");
+      }
+    }
     return 0;
-}
+    }

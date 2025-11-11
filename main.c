@@ -1,13 +1,7 @@
-#include <stdio.h>
-
-int main() {
-    char name[20];
-    int age;
-    float marks;
-
-    printf("Enter name, age, and marks: ");
-    scanf("%s %d %f", name, &age, &marks);
-
-    printf("Name: %s\nAge: %d\nMarks: %.2f", name, age, marks);
+#include<stdio.h>
+int main(){
+    int a=10,b=20;
+    int max=(a>b)?a:b; //ternary operater
+    printf("maximum=%d\n",max);
     return 0;
 }
